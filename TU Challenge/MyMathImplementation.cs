@@ -41,7 +41,7 @@ namespace TU_Challenge
                     _nbDiv++;
                 }
             }
-            return _nbDiv <= 2;
+            return _nbDiv == 2;
         }
 
         public static List<int> GetAllPrimary(int a)
